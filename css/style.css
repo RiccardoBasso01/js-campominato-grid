@@ -53,6 +53,18 @@ h1{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+/**************************** card-header *******************************/
+.form-select{
+    display: inline-block;
+    width: auto;
+    background-color: var(--light-grey);
+    border: 1px solid var(--grey);
+    font-weight: 600;
+    color: var(--dark-grey);
+    border-radius: 50px;
+    padding: 10px 36px 10px 12px;
+}
+
 /**************************** celle *******************************/
 #grid{
     display: flex;
@@ -63,9 +75,6 @@ h1{
 }
 
 .cell{
-    flex: 0 0 10%;
-    height: 10%;
-
     cursor: pointer;
 
     display: flex;
@@ -75,6 +84,19 @@ h1{
     background-color: var(--grey);
     border:5px solid var(--light-grey);
     border-style: outset;
+}
+
+#grid.easy .cell{
+    flex: 0 0 calc(100% / 8);
+    height: calc(100% / 8);
+}
+#grid.medium .cell{
+    flex: 0 0 calc(100% / 9);
+    height: calc(100% / 9);
+}
+#grid.hard .cell{
+    flex: 0 0 10%;
+    height: 10%;
 }
 
 .active{

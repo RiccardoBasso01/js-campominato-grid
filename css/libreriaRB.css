@@ -12,6 +12,7 @@
     --color-card: #ec407a;
     --grey: #969696;
     --light-grey: #cdcdcd;
+    --dark-grey: rgb(87,87,87);
     --blue: #4285f4;
     --orange: #fabb05;
     --light-orange: rgb(244, 213, 141);
@@ -23,6 +24,13 @@ a{
     display: inline-block;
     text-decoration: none;
     color: black;
+}
+
+/**************************** classi flex *******************************/
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /**************************** cards *******************************/
