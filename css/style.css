@@ -110,6 +110,46 @@ h1{
     background-size: contain;
 
 }
+
+.one-bomb::after{
+    content: '1';
+    font-size: var(--font-size-xl);
+    color: blue;
+}
+
+.two-bomb::after{
+    content: '2';
+    font-size: var(--font-size-xl);
+    color: rgb(146, 146, 0);
+}
+
+.three-bomb::after{
+    content: '3';
+    font-size: var(--font-size-xl);
+    color: orange;
+}
+
+.four-bomb::after{
+    content: '4';
+    font-size: var(--font-size-xl);
+    color: red;
+}
+
+.five-bomb::after{
+    content: '5';
+    font-size: var(--font-size-xl);
+    color: purple;
+}
+
+.six-bomb::after{
+    content: '6';
+    font-size: var(--font-size-xl);
+    color: brown;
+}
+
+.danger{
+    background-color: green;
+}
 /**************************************************************************/
 /** Media query larghezza grid */
 @media screen and (min-width: 576px){
