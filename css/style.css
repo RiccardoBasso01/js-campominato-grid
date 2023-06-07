@@ -77,6 +77,10 @@ h1{
     border-style: outset;
 }
 
+.active{
+    background-color: lightblue;
+}
+
 /**************************************************************************/
 /** Media query larghezza grid */
 @media screen and (min-width: 576px){
