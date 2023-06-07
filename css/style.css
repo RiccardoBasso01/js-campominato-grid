@@ -103,6 +103,13 @@ h1{
     background-color: lightblue;
 }
 
+/**************************** bombe *******************************/
+.bomb{
+    background-color: red;
+    background-image: url(https://images.emojiterra.com/google/android-12l/512px/1f4a3.png);
+    background-size: contain;
+
+}
 /**************************************************************************/
 /** Media query larghezza grid */
 @media screen and (min-width: 576px){
