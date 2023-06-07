@@ -67,9 +67,15 @@ h1{
     flex: 0 0 10%;
     height: 10%;
 
-    border:1px solid var(--grey);
-
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--grey);
+    border:5px solid var(--light-grey);
+    border-style: outset;
 }
 
 /**************************************************************************/
